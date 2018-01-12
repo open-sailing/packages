@@ -1,0 +1,10 @@
+lpc installation package
+
+Two types for installation:
+1)rpm (just for RHEL 7.4 release or CentOS 7.4 release)
+$ rpm -ivh kmod-ipmi_hisi_lpc_bt-1.0-0.aarch64.rpm
+
+2)source (for all linux)
+$ tar xf ipmi_hisi_lpc_bt-1.0.tar.gz
+$ cd ipmi_hisi_lpc_bt-1.0
+$ make; make install
